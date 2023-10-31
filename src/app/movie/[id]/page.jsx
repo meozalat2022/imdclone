@@ -24,7 +24,7 @@ const MoviePage = async ({ params }) => {
           placeholder="blur"
           blurDataURL="/spinner.svg"
         ></Image>
-        <div className="p-2">
+        <div className="p-3">
           <h2 className="text-lg mb-3 font-bold">
             {movie.title || getModifiedCookieValues.name}
           </h2>
